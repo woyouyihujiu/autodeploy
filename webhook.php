@@ -4,7 +4,7 @@
 $secret = "autoploy";
 
 // $path 您的站点目录
-$path = "/www/wwwroot/autoploy.52kaifa.top";
+$path = "/www/wwwroot/autodeploy.52kaifa.top";
 
 // 从github交付的标题
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
