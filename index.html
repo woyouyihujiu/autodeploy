@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>秒杀</title>
+</head>
+<body>
+	<div id="app">
+		<button @click="miaosha">点我秒杀</button>
+	</div>
+<script src="https://unpkg.com/vue@next"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.1/axios.js"></script>
+<script type="text/javascript">
+	
+	const app = Vue.createApp({
+		data() {
+			return {
+
+			}
+		},
+		methods: {
+			miaosha() {
+				axios.post('./index.php', {
+					id: 1,
+					goodsId: 2
+				}).then(res=>{
+					console.log(res)
+				})
+			}
+		}
+	}).mount('#app')
+
+</script>
+
+</body>
+</html>
