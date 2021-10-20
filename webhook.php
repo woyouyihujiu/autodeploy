@@ -1,7 +1,7 @@
 <?php
 
 // github项目 setting/webhok 中的secret,可以自定义
-$secret = "autoploy";
+$secret = "autodeploy";
 
 // $path 您的站点目录
 $path = "/www/wwwroot/autodeploy.52kaifa.top";
